@@ -60,7 +60,7 @@ def save_to_json(data, file_name):
     if not os.path.exists(file_name):
         # Create a new JSON file and write the initial data
         with open(file_name, "w") as file:
-            json.dump([data], file)  # Store data as a list of dictionaries
+            json.dump([data], file, indent=4)  # Store data as a list of dictionaries
             print(f"File '{file_name}' created.")
     else:
         # Append new data to the existing JSON file
@@ -75,7 +75,7 @@ def save_to_json(data, file_name):
                 existing_data = [data]  # Handle empty or corrupted files
 
             file.seek(0)  # Reset file pointer to the beginning
-            json.dump(existing_data, file)
+            json.dump(existing_data, file, indent=4)
             file.truncate()  # Remove any leftover content
             print(f"Data appended to '{file_name}'.")
 
