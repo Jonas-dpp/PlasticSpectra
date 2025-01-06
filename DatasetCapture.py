@@ -78,4 +78,5 @@ def save_to_json(data, file_name):
             print(f"Data appended to '{file_name}'.")
 
 save_to_json(data_entry, file_name)
+Beep(650, 500) # Notification
 print("Done!")
