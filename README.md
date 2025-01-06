@@ -12,7 +12,7 @@ This project uses a neural network to classify plastics based on spectral data.
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/YourUsername/PlasticSpectra.git
+    git clone -b main https://github.com/Jonas-dpp/PlasticSpectra
     cd PlasticSpectra
     ```
 
