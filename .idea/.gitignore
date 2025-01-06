@@ -1,3 +1,6 @@
-# Default ignored files
+webcam_image.png
+runs/MaterialClassification/events.out.tfevents.1736183974.Jonas-Eraser.25152.0
+runs/MaterialClassification/events.out.tfevents.1736184087.Jonas-Eraser.10368.0
+runs/MaterialClassification/events.out.tfevents.1736185394.Jonas-Eraser.2696.0
 /shelf/
 /workspace.xml
