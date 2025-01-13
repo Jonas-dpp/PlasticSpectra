@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 import json
+from winsound import Beep
 
 # Capture an image from the webcam
 cam = cv2.VideoCapture(0)
